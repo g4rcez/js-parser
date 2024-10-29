@@ -1,0 +1,54 @@
+{
+  "version": "4",
+  "specifiers": {
+    "jsr:@std/assert@1": "1.0.6",
+    "jsr:@std/internal@^1.0.4": "1.0.4",
+    "npm:acorn-bigint@1.0.0": "1.0.0_acorn@6.4.2",
+    "npm:acorn-walk@8.3.4": "8.3.4",
+    "npm:acorn@8.14.0": "8.14.0",
+    "npm:esprima@4.0.1": "4.0.1"
+  },
+  "jsr": {
+    "@std/assert@1.0.6": {
+      "integrity": "1904c05806a25d94fe791d6d883b685c9e2dcd60e4f9fc30f4fc5cf010c72207",
+      "dependencies": [
+        "jsr:@std/internal"
+      ]
+    },
+    "@std/internal@1.0.4": {
+      "integrity": "62e8e4911527e5e4f307741a795c0b0a9e6958d0b3790716ae71ce085f755422"
+    }
+  },
+  "npm": {
+    "acorn-bigint@1.0.0_acorn@6.4.2": {
+      "integrity": "sha512-AEbe7S7TA5Y89pbc+g5kjWcG/9CiW+fYBKQRd2+ihwCgp8cIol1J5ewHsQOCAIs+K3KEmpaLQixoAyy0sLkSJg==",
+      "dependencies": [
+        "acorn@6.4.2"
+      ]
+    },
+    "acorn-walk@8.3.4": {
+      "integrity": "sha512-ueEepnujpqee2o5aIYnvHU6C0A42MNdsIDeqy5BydrkuC5R1ZuUFnm27EeFJGoEHJQgn3uleRvmTXaJgfXbt4g==",
+      "dependencies": [
+        "acorn@8.14.0"
+      ]
+    },
+    "acorn@6.4.2": {
+      "integrity": "sha512-XtGIhXwF8YM8bJhGxG5kXgjkEuNGLTkoYqVE+KMR+aspr4KGYmKYg7yUe3KghyQ9yheNwLnjmzh/7+gfDBmHCQ=="
+    },
+    "acorn@8.14.0": {
+      "integrity": "sha512-cl669nCJTZBsL97OF4kUQm5g5hC2uihk0NxY3WENAC0TYdILVkAyHymAntgxGkl7K+t0cXIrH5siy5S4XkFycA=="
+    },
+    "esprima@4.0.1": {
+      "integrity": "sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A=="
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@std/assert@1",
+      "npm:acorn-bigint@1.0.0",
+      "npm:acorn-walk@8.3.4",
+      "npm:acorn@8.14.0",
+      "npm:esprima@4.0.1"
+    ]
+  }
+}
